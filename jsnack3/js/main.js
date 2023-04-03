@@ -4,9 +4,17 @@ let inputNumbers = [];
 for (let i = 0; i < 10; i++) {
     inputNumbers.push(+prompt("Scrivi un numero"));
 }
+
 let sumOfNumbers = 0;
 
-inputNumbers.map(x => sumOfNumbers += x);
+for (let i = 0; i < 10; i++) {
+
+    sumOfNumbers += inputNumbers[i];
+}
+
+//inputNumbers.map(x => sumOfNumbers += x);
+
+
 
 console.log(sumOfNumbers);
 
