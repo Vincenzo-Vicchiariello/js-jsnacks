@@ -1,3 +1,5 @@
+* /L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore.*/
+
 let number1 = prompt("scrivi il primo numero grazie");
 let number2 = prompt("scrivi il secondo numero grazie");
 
